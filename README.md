@@ -1,13 +1,15 @@
 Python_PE
 ===
 
-An attempted python server software for MCPE.
+This is an attempt at making MCPE server software using Python.
 
 What you'll need:
 ===
 
 Python 2.7
 
-You can get python through the linux terminal by doing <code>apt-get install python2.7</code>
+If you are running on a Linux OS you can open a terminal and type:
 
-if you do not run linux or cannot install through apt-get, visit http://www.python.org/download/releases/2.7/
+  <code>sudo apt-get install python2.7</code>
+  
+If you are not running on a Linux OS or you cannot install using apt-get you can download Python from the following website: http://www.python.org/download/releases/2.7/
