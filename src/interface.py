@@ -9,10 +9,10 @@ class interface(object):
 		super(interface, self).__init__()
 		self.arg = arg
 
-		def connection(ip = "0.0.0.0", port = 19132):
-			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-			bind = s.bind(ip, port)
-			if not bind:
-				logging.warning("Couldn't bind to "+ ip +":"+port)
-				time.sleep(5)
-				sys.exit("Process Eliminated.")
+        def connection(ip = "0.0.0.0", port = 19132):
+	   	s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+		bind = s.bind(ip, port)
+		if not bind:
+		logging.warning("Couldn't bind to "+ ip +":"+port)
+		time.sleep(5)
+		sys.exit("Process Eliminated.")
