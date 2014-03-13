@@ -1,18 +1,20 @@
 import logging
 
-class logger:
+class logger(object):
 
-def info(message):
+def info(self, message):
   logging.info("[INFO] "+message)
   
-def warning(message):
+def warning(self, message):
   logging.warning("[WARNING] "+message)
   
-def error(message):
+def error(self, message):
   logging.error("[ERROR] "+message)
   
-def debug(message):
+def debug(self, message):
   logging.debug("[DEBUG] "+message)
   
-def critical(message)
+def critical(self, message)
   logging.critical("[CRITICAL] "+message)
+  
+  logger = logger()
