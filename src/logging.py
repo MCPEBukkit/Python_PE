@@ -1,6 +1,6 @@
 import logging
 
-class logger():
+class logger:
 
 def info(message):
   logging.info("[INFO] "+message)
