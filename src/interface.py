@@ -1,5 +1,5 @@
 import socket
-import logger from src.logging
+from src.logging import logger
 import sys
 import time
 
